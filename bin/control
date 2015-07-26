@@ -299,6 +299,7 @@ function start() {
       exit 1
     elif [ $rc -eq 2 ]; then
       echo "$cartridge_type process failed to start"
+      cat $OPENSHIFT_WILDFLY_DIR/logs/server.log
       exit 2
     fi
 
