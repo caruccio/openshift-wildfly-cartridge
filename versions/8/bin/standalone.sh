@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 # Use --debug to activate debug mode with an optional argument to specify the port.
 # Usage : standalone.bat --debug
 #         standalone.bat --debug 9797
